@@ -508,7 +508,7 @@ SeekBar.prototype.options_ = {
 
 // MouseTimeDisplay tooltips should not be added to a player on mobile devices
 if (!IS_IOS && !IS_ANDROID) {
-  //SeekBar.prototype.options_.children.splice(1, 0, 'mouseTimeDisplay');
+  // SeekBar.prototype.options_.children.splice(1, 0, 'mouseTimeDisplay');
 }
 
 Component.registerComponent('SeekBar', SeekBar);
